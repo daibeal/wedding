@@ -230,3 +230,12 @@
 
 
 }());
+
+// if on mobile rmeove myvideo
+if (window.matchMedia("(max-width: 768px)").matches) {
+	document.getElementById("myVideo").remove();
+
+
+	
+
+}

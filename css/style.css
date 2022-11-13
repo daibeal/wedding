@@ -316,7 +316,6 @@ h1, h2, h3, h4, h5, h6, figure {
   position: fixed;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
-  height: 130vh;
   color: #f1f1f1;
   width: 100%;
   position: relative;
@@ -1854,3 +1853,15 @@ form label {
 
 /*# sourceMappingURL=style.css.map */
 
+/*check if mobile make backgorund black*/
+@media only screen and (max-width: 768px) {
+  #fh5co-header{
+    background-image: url('../images/mobile.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+  h3{
+    color: black !important;
+  }
+}
