@@ -2,6 +2,9 @@
 
 
 ;(function () {
+
+
+
 	
 	'use strict';
 
@@ -263,6 +266,15 @@ invitados = [
 		"asiento": "Asiento 2"
 	},
 ]
+
+
+
+// First we check if you support touch, otherwise it's click:
+let touchEvent = 'ontouchstart' in window ? 'touchstart' : 'click';
+// Then we bind via thát event. This way we only bind one event, instead of the two as below
+document.getElementById('btn-check').addEventListener(touchEvent, check);
+
+
 // check if btn-check is clicked and get the value of the input
 function check() {
 	var input = document.getElementById("id-input").value;
@@ -292,8 +304,6 @@ function check() {
 	}
 }
 
-
-
-
+// if mobile hide last div check-div and all the content inside
 
 

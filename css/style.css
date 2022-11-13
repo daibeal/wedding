@@ -1873,10 +1873,9 @@ form label {
 /*check if mobile make backgorund black*/
 @media only screen and (max-width: 768px) {
   
-  .check-div{
-    width: 100% !important;
-    padding:  3rem 1rem !important;
-    text-align: center !important;
+  /*hide last section*/
+  #last-section {
+    display: none;
   }
   .h3-div{
     width: 100% !important;
