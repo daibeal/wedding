@@ -1864,4 +1864,46 @@ form label {
   h3{
     color: black !important;
   }
+  .ot-row{
+    padding: 0 5rem !important;
+  }
+  .ot-row .col-md-6{
+    padding: 0 5rem !important;
+  }
+  .ot-row .col-md-6 .col-md-6{
+    padding: 0 5rem !important;
+  }
+  .ot-row .col-md-6 .col-md-6 .col-md-6{
+    padding: 0 5rem !important;
+  }
+  .ot-row .col-md-6 .col-md-6 .col-md-6 .col-md-6{
+    padding: 0 5rem !important;
+  }
+  
+  
+}
+.dates{
+  padding: 5rem;
+  /*add transparency*/
+  background-color: rgba(255, 255, 255, 0.5);
+  /*add border*/
+  
+  /*add border radius*/
+  border-radius: 10px;
+  /*add box shadow*/
+  box-shadow: 0 0 10px #000;
+  /*add text shadow*/
+  text-shadow: 0 0 4px #000;
+  /*add font*/
+  font-family: 'Roboto', sans-serif;
+  /*add font size*/
+  font-size: 1.5rem;
+  /*add font weight*/
+  font-weight: 700;
+  /*add text align*/
+  text-align: center;
+  /*add text color*/
+  color: #000;
+
+  
 }
