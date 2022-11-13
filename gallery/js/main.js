@@ -63,3 +63,13 @@ jQuery(document).ready(function($) {
         });
 
 });
+
+// if mobile remove id video-s
+if (window.matchMedia("(max-width: 968px)").matches) {
+	document.getElementById("video-s").remove();
+	// add backgroun image to video-container id
+  document.getElementById("video-container").style.backgroundImage = "url('img/dancing-lay.png')";
+	
+
+	// alert("mobile");
+}
