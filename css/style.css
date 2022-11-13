@@ -35,6 +35,23 @@ body {
 
   
 }
+h3{
+  color: white ;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  
+  
+}
+p{
+  color: white !important ;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'coneria';
+  
+  
+}
 
 #page {
   position: relative;
@@ -79,7 +96,7 @@ p {
   margin-bottom: 20px;
 }
 
-h1, h2, h3, h4, h5, h6, figure {
+h1, h2, h4, h5, h6, figure {
   color: #000;
   font-family: "Work Sans", Arial, sans-serif;
   font-weight: 400;
@@ -1862,38 +1879,73 @@ form label {
 
   }
   h3{
+    font-size: 1.96em;
+  }
+  h3, .p-date{
     color: black !important;
   }
+  .p-date{
+    color: rgba(0, 0, 0, 0.657) !important;
+  }
+
+  .fh5co-loader{
+    background: url(../images/loader.gif) center no-repeat black;
+  }
+  /*center tex*/
+  
   .ot-row{
-    padding: 0 5rem !important;
+    padding: 0 1rem !important;
   }
-  .ot-row .col-md-6{
-    padding: 0 5rem !important;
+  .date-3{
+    width: 100% !important;
+    margin-bottom: 6rem;
   }
-  .ot-row .col-md-6 .col-md-6{
-    padding: 0 5rem !important;
+
+  .dates{
+    /*center text*/
+    text-align: center;
+    /*center text vertically*/
+    
+    align-items: center;
+    justify-content: center;
+
+    padding: 5rem;
+    /*add transparency*/
+    
+    /*add border radius*/
+    border-radius: 10px;
+    /*add box shadow*/
+    /* box-shadow: 0 0 10px #000; */
+    /*add text shadow*/
+    
+    /*add font*/
+    font-family: 'Roboto', sans-serif;
+    /*add font size*/
+    font-size: 1.5rem;
+    /*add font weight*/
+    font-weight: 700;
+    /*add text align*/
+    text-align: center;
+    /*add text color*/
+    color: #000;
+  
+    
   }
-  .ot-row .col-md-6 .col-md-6 .col-md-6{
-    padding: 0 5rem !important;
-  }
-  .ot-row .col-md-6 .col-md-6 .col-md-6 .col-md-6{
-    padding: 0 5rem !important;
-  }
+ 
+ 
   
   
 }
 .dates{
   padding: 5rem;
   /*add transparency*/
-  background-color: rgba(255, 255, 255, 0.5);
-  /*add border*/
   
   /*add border radius*/
   border-radius: 10px;
   /*add box shadow*/
-  box-shadow: 0 0 10px #000;
+  /* box-shadow: 0 0 10px #000; */
   /*add text shadow*/
-  text-shadow: 0 0 4px #000;
+  
   /*add font*/
   font-family: 'Roboto', sans-serif;
   /*add font size*/
