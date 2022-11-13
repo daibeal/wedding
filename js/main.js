@@ -236,6 +236,9 @@ if (window.matchMedia("(max-width: 768px)").matches) {
 	document.getElementById("myVideo").remove();
 	/*remove fh5co-bg*/
 	document.getElementByClass("fh5co-bg").remove();
+	/*add */
+	
+	
 
 
 	
