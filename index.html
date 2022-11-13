@@ -58,6 +58,27 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+	<style> 
+		input[type=text] {
+		  width: 40%;
+		  box-sizing: border-box;
+		  border: 2px solid #ccc;
+		  border-radius: 4px;
+		  font-size: 16px;
+		  background-color: white;
+		  background-image: url('images/icons8-search-30.png');
+		  background-position: 10px 10px; 
+		  background-repeat: no-repeat;
+		  padding: 12px 20px 12px 40px;
+		}
+		input[type=text] {
+  		transition: width 0.4s ease-in-out;
+		}		
+
+		input[type=text]:focus {
+  		width: 70%;
+		}
+		</style>
 
 	</head>
 	<body>
@@ -545,6 +566,20 @@
 		</div>
 	</footer> -->
 	</div>
+	<section style="background-color: rgb(3, 52, 33); height: 25rem;">
+		
+			<div class="check-div" style="padding: 4rem; text-align:left;">
+				<h3 class="h3-div" style="display: inline; margin: 2rem !important; color: aliceblue !important;">Check your invitation</h3> <input  id="id-input" style="margin:2rem !important;  "type="text" name="search" placeholder="   Cédula de Identidad... 1206789455">
+				<button onclick="check()"  id="btn-check" class="btn" style="cursor: pointer !important;">Check</button>		
+			</div>
+			
+		
+		
+
+	</section>
+	
+	
+	
 
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>

@@ -1,3 +1,6 @@
+
+
+
 ;(function () {
 	
 	'use strict';
@@ -244,5 +247,53 @@ if (window.matchMedia("(max-width: 768px)").matches) {
 	
 
 }
+invitados = [
+	{
+		"nombre": "Dairon Andrés Benites Aldaz",
+		"correo": "dairon.aldaz@gmail.com",
+		"cedula": "1206716555",
+		"Mesa": "Mesa 1",
+		"asiento": "Asiento 1"
+	},
+	{
+		"nombre": "Stefanny Raquel Vélez Triviño ",
+		"correo": "stefytriv@outlook.com",
+		"cedula": "2450263211",
+		"Mesa": "Mesa 1",
+		"asiento": "Asiento 2"
+	},
+]
+// check if btn-check is clicked and get the value of the input
+function check() {
+	var input = document.getElementById("id-input").value;
+	// check if value is inside the array invitados
+	res = false;
+	foundI = 0;
+	for (var i = 0; i < invitados.length; i++) {
+		if (input == invitados[i].cedula) {
+			res = true;
+			foundI = i;
+			
+		}
+		else{
+			continue;
+		}
+	}
+	if (res == true) {
+		
+		alert("Bienvenido " + invitados[foundI].nombre + " a la mesa " + invitados[foundI].Mesa + " asiento " + invitados[foundI].asiento);
+
+
+
+
+	}
+	else{
+		alert("No se encuentra en la lista de invitados");
+	}
+}
+
+
+
+
 
 
