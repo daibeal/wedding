@@ -1872,6 +1872,11 @@ form label {
 
 /*check if mobile make backgorund black*/
 @media only screen and (max-width: 768px) {
+
+  .js-fh5co-nav-toggle{
+    margin-top: 3rem;
+    margin-right: 1rem;
+  }
   #fh5co-header{
     background-image: url('../images/back.gif');
     /*make background darker*/
@@ -1960,4 +1965,8 @@ form label {
   color: #000;
 
   
+}
+.btn:hover{
+  transform: scale(1.1);
+
 }
