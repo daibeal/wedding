@@ -316,6 +316,7 @@ nav {
 
 .portfolio-item img {
   width: 100%;
+  height: 60rem;
   overflow: hidden;
 }
 
@@ -1346,5 +1347,15 @@ footer a:hover {
   .single-blog-post .tags-share .share {
     text-align: center;
   }
+  .portfolio-item img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
 
 }
+
+/*check if on phone change element*/
+
+
