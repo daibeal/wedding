@@ -25,6 +25,16 @@ body {
   color: #828282;
   background: #fff;
 }
+#myVideo {
+  position: fixed;
+  width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  /*make it cover whole width*/
+  object-fit: cover;
+
+  
+}
 
 #page {
   position: relative;
@@ -303,22 +313,16 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-cover {
-  height: 900px;
-  background-color: black;
-  background-size: cover;
-  background-repeat: no-repeat;
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  height: 130vh;
+  color: #f1f1f1;
+  width: 100%;
   position: relative;
   width: 100%;
 }
-.fh5co-cover .overlay {
-  z-index: 0;
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.5);
-}
+
 .fh5co-cover > .fh5co-container {
   position: relative;
   z-index: 10;
@@ -1849,3 +1853,4 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
+
