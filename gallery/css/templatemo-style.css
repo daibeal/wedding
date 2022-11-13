@@ -1359,3 +1359,15 @@ footer a:hover {
 /*check if on phone change element*/
 
 
+@media only screen and (max-width: 768px) {
+  #video-container{
+    background-image: url('img/back.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    
+    
+
+  }
+}

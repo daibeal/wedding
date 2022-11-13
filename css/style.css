@@ -1873,7 +1873,9 @@ form label {
 /*check if mobile make backgorund black*/
 @media only screen and (max-width: 768px) {
   #fh5co-header{
-    background-image: url('../images/mobile.webp');
+    background-image: url('../images/back.gif');
+    /*make background darker*/
+    background-color: rgba(0, 0, 0, 0.5);
     background-size: cover;
     background-repeat: no-repeat;
 
